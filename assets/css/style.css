@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Gin";
+  src: url("./GinAndTonicOutPersonalRegular-YzLry.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gin", "Times New Roman", Times, serif;
+}
+
+:root {
+  --black: #000000;
+  --gray: #e5e4e2;
+  --darkgray: #838996;
+}
+
+
