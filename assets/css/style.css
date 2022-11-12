@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Gin";
-  src: url("./GinAndTonicOutPersonalRegular-YzLry.otf");
+  font-family: "Addison";
+  src: url("./AddisonCircusFlat.otf");
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Gin", "Times New Roman", Times, serif;
+  font-family: "Addison", "Times New Roman", Times, serif;
 }
 
 :root {
@@ -16,4 +16,6 @@
   --darkgray: #838996;
 }
 
-
+.hero-tack {
+  /* border-style: solid; */
+}
