@@ -19,4 +19,4 @@ Website for Unbroken Circle, a music outlet for all things americana
 ## Landing Page
 ![Screenshot](./assets/images/uc-land.png "Landing Page")
 ## Contribution
-Made with ❤️ by Dylan Hay
+Designed and built by Dylan Hay
