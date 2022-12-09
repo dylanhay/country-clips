@@ -1,21 +1,16 @@
-//select and declare variables for elements from HTML
+//image cycle
 
-let imgcycleEl = document.querySelector("#trial");
+// let imgcycleEl = document.querySelector("#trial");
 
-let current = 0;
-let id = 5;
-
-const timer = setTimeout(changeImage(), 5000);
-
-let changeImage = function() {
-  current++;
-  if (current >= id) {
-
-  }
-  else {
-    document.getElementById("trial").src=`./assets/icons/${current}.png`
-  }
-  timer();
-};
-
-changeImage();
+// var i = 0;
+// var intervalId = setInterval(function () {
+//   if (i === 6) {
+//     i = 0;
+//     imgcycleEl.src = `./assets/images/${i}.JPG`;
+//     // console.log(i);
+//   } else {
+//     i++;
+//     imgcycleEl.src = `./assets/images/${i}.JPG`;
+//     // console.log(i);
+//   }
+// }, 5000);
