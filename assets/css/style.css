@@ -19,3 +19,38 @@
 .hero-tack {
   /* border-style: solid; */
 }
+
+#hero-box {
+  /* max-height: 120px */
+}
+
+#title-heading {
+  text-align: left;
+  /* margin-top: auto;
+  margin-bottom: auto; */
+}
+
+#social-spot {
+  text-align: right;
+}
+
+#hbody {
+  padding: 3rem 3rem;
+}
+
+@media only screen and (max-width: 769px) {
+
+#title-heading {
+  text-align: center;
+}
+
+#social-spot {
+  text-align: center;
+  /* display: none; */
+}
+
+#hbody {
+  padding: 3rem 1.5rem;
+}
+
+}
