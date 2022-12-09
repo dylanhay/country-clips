@@ -7,7 +7,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Addison", "Times New Roman", Times, serif;
+  font-family: "Helvetica", "Times New Roman", Times, serif;
 }
 
 :root {
@@ -16,41 +16,51 @@
   --darkgray: #838996;
 }
 
-.hero-tack {
-  /* border-style: solid; */
-}
-
-#hero-box {
-  /* max-height: 120px */
-}
-
 #title-heading {
   text-align: left;
-  /* margin-top: auto;
-  margin-bottom: auto; */
+  font-family: "Addison", "Times New Roman", Times, serif;
+  padding-top: 18px;
 }
 
 #social-spot {
   text-align: right;
+  padding-bottom: 10px;
 }
 
 #hbody {
   padding: 3rem 3rem;
 }
 
+#linktree {
+  display: none;
+}
+
+#footer-text {
+  font-family: "Addison", "Times New Roman", Times, serif;
+}
+
+
 @media only screen and (max-width: 769px) {
+  #title-heading {
+    text-align: center;
+    padding-bottom: 0%;
+  }
 
-#title-heading {
-  text-align: center;
-}
+  #social-spot {
+    text-align: center;
+    display: none;
+  }
 
-#social-spot {
-  text-align: center;
-  /* display: none; */
-}
+  #linktree {
+    display: block;
+    padding-top: 0;
+    padding-bottom: 6%;
+  }
 
-#hbody {
-  padding: 3rem 1.5rem;
-}
-
+  .bottle {
+    width: 50%;
+    /* padding: 1%; */
+    margin: 1% auto;
+    display: block;
+  }
 }
